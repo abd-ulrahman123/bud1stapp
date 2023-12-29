@@ -9,8 +9,6 @@ class Tasklst extends StatefulWidget {
   @override
   State<Tasklst> createState() => _TasklstState();
 }
-
-//makin add button add tasks to list
 class _TasklstState extends State<Tasklst> {
   @override
   Widget build(BuildContext context) {
