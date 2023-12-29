@@ -2,8 +2,6 @@ import 'package:bud1stapp/screens_todey/addtasck.dart';
 import 'package:bud1stapp/screens_todey/tasklst.dart';
 import 'package:flutter/material.dart';
 import 'package:bud1stapp/modals/task.dart';
-
-//SOME DECORS TO ADD BETWEEN WIDGETS
 //I LL ADD SOME PROVIDER CLASS
 class Taskscreen extends StatefulWidget {
   @override
@@ -12,12 +10,6 @@ class Taskscreen extends StatefulWidget {
 
 class _TaskscreenState extends State<Taskscreen> {
   List<Task> tasks = [];
-  void rmvTask(Task()) {
-    setState(() {
-      tasks.remove(Task());
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
